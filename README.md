@@ -68,3 +68,19 @@ y<br>
 1. [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-detection)
 2. [Base criada com imagens do goole]
 3. [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
+
+# Etapa 1 - Detectar rostos em imagens
+* Copie a base 1 na maquina<br>
+* use o arquivo [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb) para tratar e preprocessar as informações (**lembre de editar os paths no arquivo de acordo com tua maquina local**)
+* use os arquivos [TCC_modelos_pretreinados_face_recognition_CNN.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_face_recognition_CNN.ipynb), [TCC_modelos_pretreinados_HOG.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_HOG.ipynb) e [TCC_modelos_pretreinados_Cascade.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_Cascade.ipynb) para detectar as faces nas imagens (**lembre de editar os paths no arquivo de acordo com tua maquina local**).
+
+# Etapa 2 - Classificar os rostos
+Para esta etapa os dados já devem estar prontos por conta [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb).
+#### Esta etapa demora bastante!!!
+* execute o notebook [TCC_clasificacao_imagens_baselines.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_clasificacao_imagens_baselines.ipynb) para treinar diversos modelos de classificação do [scikit-learn](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) (**lembre de editar os paths no arquivo de acordo com tua maquina local**).<br>
+* ***As etapas de transfer learning não obtiveram bom resultado para esta base :(*** <br>
+* Após a etapa acima, tente criar um modelo agrupando alguns resultados dos classificadores treinados com o notebook [TCC_VotingClassifier.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_VotingClassifier.ipynb) 
+
+
+
+
