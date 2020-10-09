@@ -1,41 +1,41 @@
 # Classifica-o-uso-de-mascaras
-Projeto de TCC da pós-graduação FIA, o objetivo é criar um modelo de classificação para identificar rostos e classificar se a pessoa esta utilizando a mascara de proteção corretamente.<br>
-o Projeto é dividido em duas etapas:<br> 
-1. detectar rostos em uma imagem
+Projeto de TCC da pós-graduação na FIA, que teve como objetivo a criação de um modelo de classificação para identificar rostos e classificar se a pessoa esta utilizando a mascara de proteção corretamente.<br>
+O Projeto é dividido em duas etapas:<br> 
+1. Detectar rostos em uma imagem
 2. Classificar os rostos encontrados
 
 # Usar repositório com git
 
-* primeiro configure teus dados:<br>
+* Primeiro configure teus dados:<br>
   <code>git config --global user.name "Wesley Souza"</code><br>
   <code>git config --global user.email "wesleypatricksouza@gmail.com"</code><br>
 
-* clone o repositório:<br>
+* Clone o repositório:<br>
   <code>git clone https://github.com/Xeslley/Classifica-o-uso-de-mascaras.git</code>
 
-* crie um alias para o repositório para não precisar do link toda hora:<br>
+* Crie um alias para o repositório para não precisar do link toda hora:<br>
   <code>git remote add origin git@github.com:Xeslley/Classifica-o-uso-de-mascaras.git</code>
 
-* apos fazer as mudanças, verificar com:<br>
+* Apos fazer as mudanças, verificar com:<br>
   <code>git status</code>
 
-* adicionar mudanças com:<br>
-  * tudo junto<br>
+* Adicionar mudanças com:<br>
+  * Tudo junto<br>
       <code>git add .</code>
-  * por arquivo<br>
+  * Por arquivo<br>
       <code>git add NOME_DO_ARQUIVO</code>
 
-* commitar no repositorio local ja com comentarario:<br>
+* Commitar no repositorio local ja com comentarario:<br>
   <code>git commit -m"Add comentario do commit"</code>
 
-* conferir se foi feito o commit com:<br>
+* Conferir se foi feito o commit com:<br>
   <code>git log</code>
 
-* subir a mudança no git hub com:<br>
+* Subir a mudança no git hub com:<br>
   <code>git push</code>
  
-# configurar ambiente
-### com o anaconda instalado digitar os comandos abaixo
+# Configurar ambiente
+### Com o anaconda instalado digitar os comandos abaixo
 <code>conda create -n py3_6_tensorflow2_1 python=3.6 anaconda</code><br>
 y<br>
 <code>conda activate py3_6_tensorflow2_1</code><br>
@@ -71,16 +71,12 @@ y<br>
 
 # Etapa 1 - Detectar rostos em imagens
 * Copie a base 1 na maquina<br>
-* use o arquivo [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb) para tratar e preprocessar as informações (**lembre de editar os paths no arquivo de acordo com tua maquina local**)
-* use os arquivos [TCC_modelos_pretreinados_face_recognition_CNN.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_face_recognition_CNN.ipynb), [TCC_modelos_pretreinados_HOG.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_HOG.ipynb) e [TCC_modelos_pretreinados_Cascade.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_Cascade.ipynb) para detectar as faces nas imagens (**lembre de editar os paths no arquivo de acordo com tua maquina local**).
+* Use o arquivo [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb) para tratar e preprocessar as informações (**lembre de editar os paths no arquivo de acordo com tua maquina local**)
+* Use os arquivos [TCC_modelos_pretreinados_face_recognition_CNN.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_face_recognition_CNN.ipynb), [TCC_modelos_pretreinados_HOG.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_HOG.ipynb) e [TCC_modelos_pretreinados_Cascade.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_Cascade.ipynb) para detectar as faces nas imagens (**lembre de editar os paths no arquivo de acordo com tua maquina local**).
 
 # Etapa 2 - Classificar os rostos
 Para esta etapa os dados já devem estar prontos por conta [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb).
 #### Esta etapa demora bastante!!!
-* execute o notebook [TCC_clasificacao_imagens_baselines.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_clasificacao_imagens_baselines.ipynb) para treinar diversos modelos de classificação do [scikit-learn](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) (**lembre de editar os paths no arquivo de acordo com tua maquina local**).<br>
+* Execute o notebook [TCC_clasificacao_imagens_baselines.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_clasificacao_imagens_baselines.ipynb) para treinar diversos modelos de classificação do [scikit-learn](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) (**lembre de editar os paths no arquivo de acordo com tua maquina local**).<br>
 * ***As etapas de transfer learning não obtiveram bom resultado para esta base :(*** <br>
 * Após a etapa acima, tente criar um modelo agrupando alguns resultados dos classificadores treinados com o notebook [TCC_VotingClassifier.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_VotingClassifier.ipynb) 
-
-
-
-
