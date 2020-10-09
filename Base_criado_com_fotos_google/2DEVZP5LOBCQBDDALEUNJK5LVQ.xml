@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>2DEVZP5LOBCQBDDALEUNJK5LVQ.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\2DEVZP5LOBCQBDDALEUNJK5LVQ.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>306</xmin>
+			<ymin>249</ymin>
+			<xmax>410</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>310</ymin>
+			<xmax>137</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>310</ymin>
+			<xmax>610</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

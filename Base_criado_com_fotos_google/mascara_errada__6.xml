@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>mascara_errada__6.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\mascara_errada__6.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>704</width>
+		<height>650</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>59</ymin>
+			<xmax>347</xmax>
+			<ymax>109</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>202</xmin>
+			<ymin>246</ymin>
+			<xmax>251</xmax>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>450</xmin>
+			<ymin>149</ymin>
+			<xmax>500</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
+</annotation>

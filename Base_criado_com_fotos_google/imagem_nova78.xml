@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Novas_imagens</folder>
+	<filename>imagem_nova78.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\images\Novas_imagens\imagem_nova78.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>306</width>
+		<height>412</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>82</xmin>
+			<ymin>41</ymin>
+			<xmax>306</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

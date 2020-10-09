@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>outra_nova2.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\outra_nova2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>267</width>
+		<height>189</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>37</ymin>
+			<xmax>175</xmax>
+			<ymax>158</ymax>
+		</bndbox>
+	</object>
+</annotation>

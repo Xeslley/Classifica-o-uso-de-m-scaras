@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Novas_imagens</folder>
+	<filename>imagem_nova6.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\images\Novas_imagens\imagem_nova6.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>340</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>317</xmin>
+			<ymin>99</ymin>
+			<xmax>362</xmax>
+			<ymax>134</ymax>
+		</bndbox>
+	</object>
+</annotation>

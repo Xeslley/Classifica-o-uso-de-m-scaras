@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>Capturar2_44.PNG</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\Capturar2_44.PNG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1738</width>
+		<height>1912</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>323</xmin>
+			<ymin>1022</ymin>
+			<xmax>941</xmax>
+			<ymax>1605</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>with_mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>201</ymin>
+			<xmax>703</xmax>
+			<ymax>858</ymax>
+		</bndbox>
+	</object>
+</annotation>

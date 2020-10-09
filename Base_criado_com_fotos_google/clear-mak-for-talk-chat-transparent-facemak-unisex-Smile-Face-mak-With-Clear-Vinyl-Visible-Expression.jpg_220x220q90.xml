@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>clear-mak-for-talk-chat-transparent-facemak-unisex-Smile-Face-mak-With-Clear-Vinyl-Visible-Expression.jpg_220x220q90.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\clear-mak-for-talk-chat-transparent-facemak-unisex-Smile-Face-mak-With-Clear-Vinyl-Visible-Expression.jpg_220x220q90.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>220</width>
+		<height>220</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>28</ymin>
+			<xmax>91</xmax>
+			<ymax>109</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>20</ymin>
+			<xmax>191</xmax>
+			<ymax>82</ymax>
+		</bndbox>
+	</object>
+</annotation>

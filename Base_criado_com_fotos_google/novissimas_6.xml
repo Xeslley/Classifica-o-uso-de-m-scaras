@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nova pasta</folder>
+	<filename>novissimas_6.png</filename>
+	<path>C:\Users\wesle\Documents\TensorFlow\workspace\training_demo\Nova pasta\novissimas_6.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2200</width>
+		<height>1527</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask_weared_incorrect</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>634</xmin>
+			<ymin>158</ymin>
+			<xmax>1476</xmax>
+			<ymax>1189</ymax>
+		</bndbox>
+	</object>
+</annotation>
