@@ -1,5 +1,8 @@
-# Classifica-o-uso-de-m-scaras
-Projeto de TCC da pós-graduação FIA, o objetivo é criar um modelo de classificação para identificar rostos e classificar se a pessoa esta utilizando a mascara de proteção corretamente.
+# Classifica-o-uso-de-mascaras
+Projeto de TCC da pós-graduação FIA, o objetivo é criar um modelo de classificação para identificar rostos e classificar se a pessoa esta utilizando a mascara de proteção corretamente.<br>
+o Projeto é dividido em duas etapas:<br> 
+1. detectar rostos em uma imagem
+2. Classificar os rostos encontrados
 
 # Usar repositório com git
 
@@ -60,3 +63,8 @@ y<br>
 <code>pip install jupyter_contrib_nbextensions</code><br>
 <code>jupyter contrib nbextension install --user</code><br>
 <code>jupyter nbextension enable execute_time/ExecuteTime</code>
+
+# Bases de dados
+1. [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-detection)
+2. [Base criada com imagens do goole]
+3. [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
