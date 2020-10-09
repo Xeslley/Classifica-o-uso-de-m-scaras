@@ -70,8 +70,10 @@ y<br>
 3. [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
 
 # Etapa 1 - Detectar rostos em imagens
-* Copie a base 1 na maquina<br>
+* Copie as bases para a máquina local<br>
 * Use o arquivo [TCC_exploratório+preprocessing.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_explorat%C3%B3rio%2Bpreprocessing.ipynb) para tratar e preprocessar as informações (**lembre de editar os paths no arquivo de acordo com tua maquina local**)
+* ***Atenção*** Na parte em que o script extrai uma amostra aleatória da base 3 para balancear as classes, não é feita a *annotation* e esta tarefa é por conta própria.<br>
+<p>Uma opção é o [LabelImg](https://github.com/tzutalin/labelImg), mas pode ser feito por algum script que deixe com o padrão [PASCAL VOC XML](http://host.robots.ox.ac.uk/pascal/VOC/)<br> 
 * Use os arquivos [TCC_modelos_pretreinados_face_recognition_CNN.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_face_recognition_CNN.ipynb), [TCC_modelos_pretreinados_HOG.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_HOG.ipynb) e [TCC_modelos_pretreinados_Cascade.ipynb](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/blob/main/TCC_modelos_pretreinados_Cascade.ipynb) para detectar as faces nas imagens (**lembre de editar os paths no arquivo de acordo com tua maquina local**).
 
 # Etapa 2 - Classificar os rostos
