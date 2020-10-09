@@ -66,7 +66,7 @@ y<br>
 
 # Bases de dados
 1. [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-detection)
-2. [Base criada com imagens do goole]
+2. [Base criada com imagens do google](https://github.com/Xeslley/Classifica-o-uso-de-mascaras/tree/main/Base_criado_com_fotos_google)
 3. [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
 
 # Etapa 1 - Detectar rostos em imagens
