@@ -1,8 +1,8 @@
 # Classifica-o-uso-de-mascaras
-Projeto de TCC da pós-graduação na FIA, que teve como objetivo a criação de um modelo de classificação para identificar rostos e classificar se a pessoa esta utilizando a mascara de proteção corretamente.<br>
+Projeto de TCC da pós-graduação na FIA, que teve como objetivo a criação de um modelo de classificação para identificar rostos e classificar se a pessoa utiliza corretamente a máscara de proteção individual.<br>
 O Projeto é dividido em duas etapas:<br> 
-1. Detectar rostos em uma imagem
-2. Classificar os rostos encontrados
+1. Detectar rostos em uma imagem;
+2. Classificar os rostos encontrados.
 
 # Usar repositório com git
 
@@ -16,7 +16,7 @@ O Projeto é dividido em duas etapas:<br>
 * Crie um alias para o repositório para não precisar do link toda hora:<br>
   <code>git remote add origin git@github.com:Xeslley/Classifica-o-uso-de-mascaras.git</code>
 
-* Apos fazer as mudanças, verificar com:<br>
+* Após realizar as mudanças, verificar com:<br>
   <code>git status</code>
 
 * Adicionar mudanças com:<br>
@@ -25,7 +25,7 @@ O Projeto é dividido em duas etapas:<br>
   * Por arquivo<br>
       <code>git add NOME_DO_ARQUIVO</code>
 
-* Commitar no repositorio local ja com comentarario:<br>
+* Commitar no repositório local já com comentários:<br>
   <code>git commit -m"Add comentario do commit"</code>
 
 * Conferir se foi feito o commit com:<br>
